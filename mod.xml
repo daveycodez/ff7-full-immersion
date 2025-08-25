@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>87db5f8e-d907-4b75-bc7a-a360c53cae9e</ID>
+  <Name>Full Immersion</Name>
+  <Category>Gameplay</Category>
+  <Author />
+  <Version>1.0</Version>
+  <Description />
+  <ReleaseNotes />
+  <ReleaseDate>2025-08-22T19:28:45.4867302-07:00</ReleaseDate>
+  <Link />
+  <DonationLink />
+  <FFNxConfig />
+  <Variables />
+  <!--Mod Folders-->
+  <ModFolder Folder="Full-Immersion" ActiveWhen="Full-Immersion = 1"/>
+	<ModFolder Folder="VO" ActiveWhen="Full-Immersion = 1"/>
+
+  <ConfigOption>
+      <Type>Bool</Type>
+      <Default>1</Default>
+      <ID>Full-Immersion</ID>
+      <Name>Full Immersion</Name>
+      <Description>Enable Full Immersion.</Description>
+      <Option Value="0" Name="Off" />
+      <Option Value="1" Name="On" />
+    </ConfigOption>
+  
+  <Compatibility>
+     <Require ModID="09E81530-3F09-46B9-831B-DF431B8F319C">Name of Other Mod</Require>
+     
+     <Setting>
+           <MyID>EchoSRequired</MyID>
+           <MyValue>1</MyValue>
+           <ModID>09E81530-3F09-46B9-831B-DF431B8F319C</ModID>
+           <TheirID>Echo-S</TheirID>
+           <Require>1</Require>
+         </Setting>
+   </Compatibility>
+  
+  <OrderConstraints>
+    <Before>09E81530-3F09-46B9-831B-DF431B8F319C</Before>
+  </OrderConstraints>
+</ModInfo>
