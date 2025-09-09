@@ -1,0 +1,143 @@
+:HEADER_BLOCK 2
+:SKELETON dog2_sk
+:BONES 28
+
+dou1
+root
+5.0539484
+1 QFED
+
+kubi
+dou1
+2.5295272
+1 QFEF
+
+atama
+kubi
+3.0518746
+1 QFFB
+
+ago
+atama
+2.228465
+1 QFFD
+
+non1
+dou1
+2.619099
+0
+
+l_kata
+non1
+4.790118
+1 QFFF
+
+l_ude
+l_kata
+3.5375412
+1 QFGB
+
+l_te
+l_ude
+1.6998115
+1 QFGD
+
+l_teyubi
+l_te
+1.5904896
+1 QFGF
+
+non2
+dou1
+2.619099
+0
+
+r_kata
+non2
+4.790118
+1 QFHB
+
+r_ude
+r_kata
+3.5375412
+1 QFHD
+
+r_te
+r_ude
+1.6998115
+1 QFHF
+
+r_teyubi
+r_te
+1.5904896
+1 QFIB
+
+dou2
+root
+5.2494097
+1 QFID
+
+non3
+dou2
+3.2445934
+0
+
+l_momo
+non3
+4.524979
+1 QFIF
+
+bone_19
+l_momo
+.36031628
+0
+
+l_sune
+bone_19
+2.4953606
+1 QFJB
+
+l_asi
+l_sune
+3.0295684
+1 QFJD
+
+l_asiyub
+l_asi
+1.6959728
+1 QFJF
+
+non4
+dou2
+3.2445934
+0
+
+r_momo
+non4
+4.524979
+1 QGAB
+
+bone_25
+r_momo
+.36031628
+0
+
+r_sune
+bone_25
+2.4953606
+1 QGAD
+
+r_asi
+r_sune
+3.0295684
+1 QGAF
+
+r_asiyub
+r_asi
+1.6959728
+1 QGBB
+
+o1
+dou2
+5.5381413
+0
